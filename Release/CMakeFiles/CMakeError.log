@@ -1,0 +1,226 @@
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-4i1hbu
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_94f4f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94f4f.dir\Debug\\" /Fd"cmTC_94f4f.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-4i1hbu\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-4i1hbu\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-4i1hbu\cmTC_94f4f.vcxproj]
+
+
+
+Determining if the include file fnmatch.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-britjj
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_b6d93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6d93.dir\Debug\\" /Fd"cmTC_b6d93.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-britjj\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-britjj\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'fnmatch.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-britjj\cmTC_b6d93.vcxproj]
+
+
+
+Determining if the include file history.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-g1pg3m
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_d6a95.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6a95.dir\Debug\\" /Fd"cmTC_d6a95.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-g1pg3m\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-g1pg3m\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'history.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-g1pg3m\cmTC_d6a95.vcxproj]
+
+
+
+Determining if the include file ieeefp.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-yy8c6l
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_4cf5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4cf5a.dir\Debug\\" /Fd"cmTC_4cf5a.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-yy8c6l\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-yy8c6l\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'ieeefp.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-yy8c6l\cmTC_4cf5a.vcxproj]
+
+
+
+Determining if the include file readline.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-v0l1lp
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_3a29d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a29d.dir\Debug\\" /Fd"cmTC_3a29d.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-v0l1lp\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-v0l1lp\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'readline.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-v0l1lp\cmTC_3a29d.vcxproj]
+
+
+
+Determining if the include file readline/history.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-o3lz7g
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_c0664.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0664.dir\Debug\\" /Fd"cmTC_c0664.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-o3lz7g\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-o3lz7g\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'readline/history.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-o3lz7g\cmTC_c0664.vcxproj]
+
+
+
+Determining if the include file readline/readline.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-id1o82
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_17108.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17108.dir\Debug\\" /Fd"cmTC_17108.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-id1o82\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-id1o82\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'readline/readline.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-id1o82\cmTC_17108.vcxproj]
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-brbza1
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_d705f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d705f.dir\Debug\\" /Fd"cmTC_d705f.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-brbza1\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-brbza1\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-brbza1\cmTC_d705f.vcxproj]
+
+
+
+Determining if the include file sys/fcntl.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-cn1ovy
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_4198a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4198a.dir\Debug\\" /Fd"cmTC_4198a.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-cn1ovy\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-cn1ovy\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/fcntl.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-cn1ovy\cmTC_4198a.vcxproj]
+
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-ngsbk6
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_03de8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03de8.dir\Debug\\" /Fd"cmTC_03de8.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-ngsbk6\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-ngsbk6\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-ngsbk6\cmTC_03de8.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-snxlnv
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_f6ad2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6ad2.dir\Debug\\" /Fd"cmTC_f6ad2.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-snxlnv\CheckIncludeFile.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-snxlnv\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-snxlnv\cmTC_f6ad2.vcxproj]
+
+
+
+Determining if the function fnmatch exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-e5er1d
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_64d18.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fnmatch /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64d18.dir\Debug\\" /Fd"cmTC_64d18.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-e5er1d\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fnmatch referenced in function main [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-e5er1d\cmTC_64d18.vcxproj]
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-e5er1d\Debug\cmTC_64d18.exe : fatal error LNK1120: 1 unresolved externals [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-e5er1d\cmTC_64d18.vcxproj]
+
+
+
+Determining if the function fpclass exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-1f9w4v
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_de149.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fpclass /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de149.dir\Debug\\" /Fd"cmTC_de149.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-1f9w4v\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fpclass referenced in function main [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-1f9w4v\cmTC_de149.vcxproj]
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-1f9w4v\Debug\cmTC_de149.exe : fatal error LNK1120: 1 unresolved externals [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-1f9w4v\cmTC_de149.vcxproj]
+
+
+
+Determining if the function fprintf exists failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-a2pqgj
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_88fd4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fprintf /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88fd4.dir\Debug\\" /Fd"cmTC_88fd4.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-a2pqgj\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fprintf referenced in function main [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-a2pqgj\cmTC_88fd4.vcxproj]
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-a2pqgj\Debug\cmTC_88fd4.exe : fatal error LNK1120: 1 unresolved externals [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-a2pqgj\cmTC_88fd4.vcxproj]
+
+
+
+Determining if the add_history exist failed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-1rupmf
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_6e893.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6e893.dir\Debug\\" /Fd"cmTC_6e893.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-1rupmf\CheckSymbolExists.c"
+C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-1rupmf\CheckSymbolExists.c(2,10): fatal error C1083: Cannot open include file: 'readline.h': No such file or directory [C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-1rupmf\cmTC_6e893.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <readline.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef add_history
+  return ((int*)(&add_history))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

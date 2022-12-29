@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\array.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\bif.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\browser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\cons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\func.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\lex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\num.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\obj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\output.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\parse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\prim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\ptr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\range.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\sdo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\stc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\str.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\switch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\sym.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\tools\browser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{637550C3-1218-3D35-BB91-DD472C94694A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

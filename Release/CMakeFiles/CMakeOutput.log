@@ -1,0 +1,522 @@
+The system is: Windows - 10.0.22000 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/29/2022 8:42:23 AM.
+Project "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\vs2019\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\vs2019\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\vs2019\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/3.25.1/CompilerIdCXX/CompilerIdCXX.exe"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 12/29/2022 8:42:24 AM.
+Project "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\vs2019\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\vs2019\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\vs2019\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.63
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/3.25.1/CompilerIdC/CompilerIdC.exe"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-n95bua
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_e1657.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e1657.dir\Debug\\" /Fd"cmTC_e1657.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_e1657.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-n95bua\Debug\cmTC_e1657.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-7tpcze
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_dbd79.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dbd79.dir\Debug\\" /Fd"cmTC_dbd79.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+  cmTC_dbd79.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-7tpcze\Debug\cmTC_dbd79.exe
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-kebsr0
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_de859.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de859.dir\Debug\\" /Fd"cmTC_de859.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-kebsr0\CheckIncludeFile.c"
+  cmTC_de859.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-kebsr0\Debug\cmTC_de859.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-wioh0h
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_d00e8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d00e8.dir\Debug\\" /Fd"cmTC_d00e8.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-wioh0h\CheckIncludeFile.c"
+  cmTC_d00e8.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-wioh0h\Debug\cmTC_d00e8.exe
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-gweaxe
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_082be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_082be.dir\Debug\\" /Fd"cmTC_082be.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-gweaxe\CheckIncludeFile.c"
+  cmTC_082be.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-gweaxe\Debug\cmTC_082be.exe
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-lp0tmm
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_72ba3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72ba3.dir\Debug\\" /Fd"cmTC_72ba3.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-lp0tmm\CheckIncludeFile.c"
+  cmTC_72ba3.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-lp0tmm\Debug\cmTC_72ba3.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-ifq02q
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_c0951.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0951.dir\Debug\\" /Fd"cmTC_c0951.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-ifq02q\CheckIncludeFile.c"
+  CheckIncludeFile.c
+  cmTC_c0951.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-ifq02q\Debug\cmTC_c0951.exe
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-ksizra
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_c1c47.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1c47.dir\Debug\\" /Fd"cmTC_c1c47.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-ksizra\CheckIncludeFile.c"
+  cmTC_c1c47.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-ksizra\Debug\cmTC_c1c47.exe
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-0ease2
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_8abe7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8abe7.dir\Debug\\" /Fd"cmTC_8abe7.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-0ease2\CheckIncludeFile.c"
+  cmTC_8abe7.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-0ease2\Debug\cmTC_8abe7.exe
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-8sfzta
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_fa7fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa7fe.dir\Debug\\" /Fd"cmTC_fa7fe.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-8sfzta\CheckIncludeFile.c"
+  cmTC_fa7fe.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-8sfzta\Debug\cmTC_fa7fe.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-xocwsb
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_7b133.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b133.dir\Debug\\" /Fd"cmTC_7b133.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-xocwsb\CheckIncludeFile.c"
+  cmTC_7b133.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-xocwsb\Debug\cmTC_7b133.exe
+
+
+
+Determining if the function fclose exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-q58dzg
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_7eedd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fclose /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7eedd.dir\Debug\\" /Fd"cmTC_7eedd.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-q58dzg\CheckFunctionExists.c"
+  cmTC_7eedd.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-q58dzg\Debug\cmTC_7eedd.exe
+
+
+
+Determining if the function fflush exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-psjg0k
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_bea0e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fflush /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bea0e.dir\Debug\\" /Fd"cmTC_bea0e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-psjg0k\CheckFunctionExists.c"
+  cmTC_bea0e.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-psjg0k\Debug\cmTC_bea0e.exe
+
+
+
+Determining if the function fopen exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-izaqih
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_790c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fopen /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_790c3.dir\Debug\\" /Fd"cmTC_790c3.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-izaqih\CheckFunctionExists.c"
+  cmTC_790c3.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-izaqih\Debug\cmTC_790c3.exe
+
+
+
+Determining if the function fread exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-qxgbyp
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_64535.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fread /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64535.dir\Debug\\" /Fd"cmTC_64535.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-qxgbyp\CheckFunctionExists.c"
+  cmTC_64535.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-qxgbyp\Debug\cmTC_64535.exe
+
+
+
+Determining if the function fseek exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-c67gp1
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_2a4b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseek /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a4b9.dir\Debug\\" /Fd"cmTC_2a4b9.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-c67gp1\CheckFunctionExists.c"
+  cmTC_2a4b9.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-c67gp1\Debug\cmTC_2a4b9.exe
+
+
+
+Determining if the function ftell exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-wmqpne
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_01da6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ftell /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01da6.dir\Debug\\" /Fd"cmTC_01da6.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-wmqpne\CheckFunctionExists.c"
+  cmTC_01da6.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-wmqpne\Debug\cmTC_01da6.exe
+
+
+
+Determining if the function fwrite exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-2kwl8e
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_eb210.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fwrite /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb210.dir\Debug\\" /Fd"cmTC_eb210.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-2kwl8e\CheckFunctionExists.c"
+  cmTC_eb210.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-2kwl8e\Debug\cmTC_eb210.exe
+
+
+
+Determining if the function setvbuf exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-ei4pgw
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_9adb4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setvbuf /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9adb4.dir\Debug\\" /Fd"cmTC_9adb4.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-ei4pgw\CheckFunctionExists.c"
+  cmTC_9adb4.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-ei4pgw\Debug\cmTC_9adb4.exe
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-x6ipyk
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_0f9cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strerror /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f9cc.dir\Debug\\" /Fd"cmTC_0f9cc.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-x6ipyk\CheckFunctionExists.c"
+  cmTC_0f9cc.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-x6ipyk\Debug\cmTC_0f9cc.exe
+
+
+
+Determining if the isnan exist passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-nwygci
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_d6207.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6207.dir\Debug\\" /Fd"cmTC_d6207.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-nwygci\CheckSymbolExists.c"
+  cmTC_d6207.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-nwygci\Debug\cmTC_d6207.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memmove exist passed with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-j4ao0i
+
+Run Build Command(s):C:/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_1fa4e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30147 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /permissive /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1fa4e.dir\Debug\\" /Fd"cmTC_1fa4e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-j4ao0i\CheckSymbolExists.c"
+  cmTC_1fa4e.vcxproj -> C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-j4ao0i\Debug\cmTC_1fa4e.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+Microsoft Visual Studio 2019 Version 16.11.22.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+Build started...
+1>------ Build started: Project: CompilerIdFortran, Configuration: Debug x64 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 19.1.3.311 [Intel(R) 64]...
+1>CMakeFortranCompilerId.F
+1>Intel(R) Visual Fortran Intel(R) 64 Compiler for applications running on Intel(R) 64, Version 19.1.3.311 Build 20201010_000000
+1>Copyright (C) 1985-2020 Intel Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.29.30147.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:.\CompilerIdFortran.exe
+1>/INCREMENTAL:NO
+1>/MANIFEST
+1>/MANIFESTFILE:Debug\CompilerIdFortran.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CompilerIdFortran\CompilerIdFortran.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CompilerIdFortran\CompilerIdFortran.lib
+1>Debug\CMakeFortranCompilerId.obj
+1>Embedding manifest...
+1>Performing Post-Build Event...
+1>CMAKE_Fortran_COMPILER=C:\Intel\IntelSW\compilers_and_libraries_2020\windows\bin\intel64\ifort.exe
+1>
+1>Build log written to  "file://C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CompilerIdFortran\Debug\BuildLog.htm"
+1>CompilerIdFortran - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.exe"
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.pdb"
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.u2d"
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.vfproj"
+
+The Fortran compiler identification is Intel, found in "C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/3.25.1/CompilerIdFortran/CompilerIdFortran.exe"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/CMakeScratch/TryCompile-yxkmoh
+
+Run Build Command(s):C:/vs2019/Common7/IDE/devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTC_a1e7d && 
+Microsoft Visual Studio 2019 Version 16.11.22.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+Build started...
+1>------ Build started: Project: cmTC_a1e7d, Configuration: Debug x64 ------
+1>Compiling with Intel(R) Visual Fortran Compiler 19.1.3.311 [Intel(R) 64]...
+1>CMakeFortranCompilerABI.F90
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.29.30147.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-yxkmoh\Debug\cmTC_a1e7d.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:cmTC_a1e7d.dir\Debug\cmTC_a1e7d.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-yxkmoh\Debug/cmTC_a1e7d.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-yxkmoh\Debug\cmTC_a1e7d.lib
+1>/machine:x64
+1>/debug
+1>/INCREMENTAL
+1>cmTC_a1e7d.dir\Debug\CMakeFortranCompilerABI.obj
+1>cmTC_a1e7d.dir\Debug\cmTC_a1e7d.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool
+1>Copyright (c) Microsoft Corporation.
+1>All rights reserved.
+1>
+1>Build log written to  "file://C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\CMakeScratch\TryCompile-yxkmoh\cmTC_a1e7d.dir\Debug\BuildLog.htm"
+1>cmTC_a1e7d - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+

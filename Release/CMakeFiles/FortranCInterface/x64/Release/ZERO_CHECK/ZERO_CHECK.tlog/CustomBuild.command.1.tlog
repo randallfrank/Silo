@@ -1,0 +1,10 @@
+^C:\ANSYSDEV\CYGWIN\HOME\RJFRANK\WORK\ANS_GIT\SILO\RELEASE\CMAKEFILES\FORTRANCINTERFACE\CMAKEFILES\355A867935EE499BACB5C000737679AF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Program Files/CMake/share/cmake-3.25/Modules/FortranCInterface" -BC:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/FortranCInterface --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/FortranCInterface/FortranCInterface.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

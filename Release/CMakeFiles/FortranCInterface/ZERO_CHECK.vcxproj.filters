@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\CMakeFiles\355a867935ee499bacb5c000737679af\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3804ABED-5F77-35D8-82AF-50414EB92C2F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

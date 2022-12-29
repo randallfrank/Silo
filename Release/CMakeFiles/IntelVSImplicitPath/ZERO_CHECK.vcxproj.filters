@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\IntelVSImplicitPath\CMakeFiles\adea64310be5fb8c2f1ccd4a689d2eda\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D06D6420-C303-3E10-B290-C18E27ABB06D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

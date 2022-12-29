@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{05FD6F60-FB2B-39E0-ACE4-C774569834B2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>silo</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">silo.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">siloh5</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">silo.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">siloh5</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">silo.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">siloh5</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">silo.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">siloh5</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Product-src/apex232/machines/win64/HDF5-1.12.2/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SILO_EXPORTS;LITE_EXPORTS;AS_SILO_BUILTIN;BIT_STREAM_WORD_TYPE=uint8;WITHOUT_ZLIB;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug";silo_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SILO_EXPORTS;LITE_EXPORTS;AS_SILO_BUILTIN;BIT_STREAM_WORD_TYPE=uint8;WITHOUT_ZLIB;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\";silo_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\lib\hdf5-serial.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/lib/Debug/siloh5.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/bin/Debug/siloh5.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Product-src/apex232/machines/win64/HDF5-1.12.2/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SILO_EXPORTS;LITE_EXPORTS;AS_SILO_BUILTIN;BIT_STREAM_WORD_TYPE=uint8;WITHOUT_ZLIB;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Release";silo_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SILO_EXPORTS;LITE_EXPORTS;AS_SILO_BUILTIN;BIT_STREAM_WORD_TYPE=uint8;WITHOUT_ZLIB;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Release\";silo_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\lib\hdf5-serial.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/lib/Release/siloh5.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/bin/Release/siloh5.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Product-src/apex232/machines/win64/HDF5-1.12.2/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SILO_EXPORTS;LITE_EXPORTS;AS_SILO_BUILTIN;BIT_STREAM_WORD_TYPE=uint8;WITHOUT_ZLIB;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="MinSizeRel";silo_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SILO_EXPORTS;LITE_EXPORTS;AS_SILO_BUILTIN;BIT_STREAM_WORD_TYPE=uint8;WITHOUT_ZLIB;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"MinSizeRel\";silo_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\lib\hdf5-serial.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/lib/MinSizeRel/siloh5.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/bin/MinSizeRel/siloh5.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Product-src/apex232/machines/win64/HDF5-1.12.2/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SILO_EXPORTS;LITE_EXPORTS;AS_SILO_BUILTIN;BIT_STREAM_WORD_TYPE=uint8;WITHOUT_ZLIB;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="RelWithDebInfo";silo_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SILO_EXPORTS;LITE_EXPORTS;AS_SILO_BUILTIN;BIT_STREAM_WORD_TYPE=uint8;WITHOUT_ZLIB;_CRT_SECURE_NO_DEPRECATE;_USE_MATH_DEFINES;NOMINMAX;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";silo_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\include;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\lib\hdf5-serial.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/lib/RelWithDebInfo/siloh5.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/bin/RelWithDebInfo/siloh5.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo -BC:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release --check-stamp-file C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-config-version.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-config.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-targets-release.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-targets.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloConfig.cmake.in;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloFindHDF5.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloFindZlib.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloHelpers.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\config.h.cmake.in;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeFortranCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Output.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\silo.h.in;C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFortranInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-Fortran.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindHDF5.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Detect.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Input.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Macro.h.in;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Intel-Fortran.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Intel.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo -BC:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release --check-stamp-file C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-config-version.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-config.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-targets-release.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-targets.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloConfig.cmake.in;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloFindHDF5.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloFindZlib.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloHelpers.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\config.h.cmake.in;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeFortranCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Output.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\silo.h.in;C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFortranInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-Fortran.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindHDF5.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Detect.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Input.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Macro.h.in;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Intel-Fortran.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Intel.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo -BC:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release --check-stamp-file C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-config-version.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-config.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-targets-release.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-targets.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloConfig.cmake.in;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloFindHDF5.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloFindZlib.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloHelpers.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\config.h.cmake.in;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeFortranCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Output.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\silo.h.in;C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFortranInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-Fortran.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindHDF5.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Detect.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Input.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Macro.h.in;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Intel-Fortran.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Intel.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo -BC:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release --check-stamp-file C:/ANSYSDev/cygwin/home/rjfrank/work/ans_git/Silo/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-config-version.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-config.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-targets-release.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Product-src\apex232\machines\win64\HDF5-1.12.2\cmake\hdf5-targets.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloConfig.cmake.in;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloFindHDF5.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloFindZlib.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\SiloHelpers.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMake\config.h.cmake.in;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeFortranCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Output.cmake;C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\silo.h.in;C:\Program Files\CMake\share\cmake-3.25\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeFortranInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel-Fortran.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\Intel.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindHDF5.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Detect.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Input.cmake.in;C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\Macro.h.in;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Intel-Fortran.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-Intel.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.25\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug\silo_debug.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters\f_ale3d.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters\f_sample.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\api.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\ent.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\netcdf.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\obj.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\silo_netcdf.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\table.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdb.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdbdir.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdbio.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdbmm.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdbx.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdconv.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdlow.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdmemb.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdpath.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdrdwr.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv\silo_pdb.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score\memmove.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score\scctl.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score\scctla.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score\schash.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score\scstr.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\alloc.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\extface.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\silo.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\silo_ns.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\utils.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus\silo_taurus.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus\taurus.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown\silo_unknown.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\silo_f.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv\H5FDsilo.c" />
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv\silo_hdf5.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\ZERO_CHECK.vcxproj">
+      <Project>{8059206E-4383-33A3-9A91-393C234D5F1A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\pdb_detect.vcxproj">
+      <Project>{A48C3BFE-FBF2-3D4A-AE00-1BA176B39914}</Project>
+      <Name>pdb_detect</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

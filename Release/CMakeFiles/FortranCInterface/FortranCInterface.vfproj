@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{64528E1E-1DEE-3ABC-B0AD-12F573ADAAA4}">
+	<Platforms>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|x64" OutputDirectory="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Debug" IntermediateDirectory="FortranCInterface.dir\Debug" TargetName="FortranCInterface">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 -Zi" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" PreprocessorDefinitions=";CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDebugDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:x64 /debug /INCREMENTAL" OutputFile="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Debug\FortranCInterface.exe" Version="0.0" LinkLibraryDependencies="false" GenerateDebugInformation="true" ProgramDatabaseFile="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Debug/FortranCInterface.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Debug\FortranCInterface.lib" AdditionalDependencies="$(NOINHERIT) user32.lib Debug\symbols.lib Debug\myfort.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions=";CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|x64" OutputDirectory="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Release" IntermediateDirectory="FortranCInterface.dir\Release" TargetName="FortranCInterface">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" Preprocess="preprocessYes" PreprocessorDefinitions=";NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:x64" OutputFile="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Release\FortranCInterface.exe" Version="0.0" LinkIncremental="linkIncrementalNo" LinkLibraryDependencies="false" ProgramDatabaseFile="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Release/FortranCInterface.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\Release\FortranCInterface.lib" AdditionalDependencies="$(NOINHERIT) user32.lib Release\symbols.lib Release\myfort.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions=";NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="MinSizeRel|x64" OutputDirectory="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\MinSizeRel" IntermediateDirectory="FortranCInterface.dir\MinSizeRel" TargetName="FortranCInterface">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" Optimization="optimizeMinSpace" Preprocess="preprocessYes" PreprocessorDefinitions=";NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:x64" OutputFile="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\MinSizeRel\FortranCInterface.exe" Version="0.0" LinkIncremental="linkIncrementalNo" LinkLibraryDependencies="false" ProgramDatabaseFile="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\MinSizeRel/FortranCInterface.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\MinSizeRel\FortranCInterface.lib" AdditionalDependencies="$(NOINHERIT) user32.lib MinSizeRel\symbols.lib MinSizeRel\myfort.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions=";NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|x64" OutputDirectory="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\RelWithDebInfo" IntermediateDirectory="FortranCInterface.dir\RelWithDebInfo" TargetName="FortranCInterface">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2 -Zi" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" PreprocessorDefinitions=";NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLinkerTool" AdditionalOptions="/machine:x64 /debug /INCREMENTAL" OutputFile="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\RelWithDebInfo\FortranCInterface.exe" Version="0.0" LinkLibraryDependencies="false" GenerateDebugInformation="true" ProgramDatabaseFile="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\RelWithDebInfo/FortranCInterface.pdb" SubSystem="subSystemConsole" ImportLibrary="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\Release\CMakeFiles\FortranCInterface\RelWithDebInfo\FortranCInterface.lib" AdditionalDependencies="$(NOINHERIT) user32.lib RelWithDebInfo\symbols.lib RelWithDebInfo\myfort.lib "/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions=";NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Source Files">
+		<File RelativePath="C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\call_mod.f90"/>
+		<File RelativePath="C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\call_sub.f"/>
+		<File RelativePath="C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\main.F">
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" PreprocessorDefinitions=";CALL_MOD"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|x64">
+				<Tool Name="VFFortranCompilerTool" PreprocessorDefinitions=";CALL_MOD"/></FileConfiguration>
+			<FileConfiguration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" PreprocessorDefinitions=";CALL_MOD"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|x64">
+				<Tool Name="VFFortranCompilerTool" PreprocessorDefinitions=";CALL_MOD"/></FileConfiguration></File></Filter>
+		<File RelativePath="C:\Program Files\CMake\share\cmake-3.25\Modules\FortranCInterface\CMakeLists.txt"/></Files>
+	<Globals/></VisualStudioProject>

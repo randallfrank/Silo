@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\debug\silo_debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters\f_ale3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\filters\f_sample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\ent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\netcdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\obj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\silo_netcdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\netcdf\table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdbdir.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdbio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdbmm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdbx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdlow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdmemb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdpath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb\pdrdwr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\pdb_drv\silo_pdb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score\memmove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score\scctl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score\scctla.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score\schash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\score\scstr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\alloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\extface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\silo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\silo_ns.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus\silo_taurus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\taurus\taurus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\unknown\silo_unknown.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\silo\silo_f.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv\H5FDsilo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\src\hdf5_drv\silo_hdf5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ANSYSDev\cygwin\home\rjfrank\work\ans_git\Silo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{637550C3-1218-3D35-BB91-DD472C94694A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
